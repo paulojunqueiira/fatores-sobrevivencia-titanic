@@ -27,8 +27,8 @@ Para conduzir a análise e responder às perguntas, o projeto seguiu um fluxo de
     * O **Pandas** foi utilizado para calcular as taxas de sobrevivência com base em diferentes atributos dos passageiros, como sexo, classe social, faixa etária (crianças vs. adultos), presença de familiares, custo da passagem (acima ou abaixo da média) e porto de embarque.
     * Foram gerados outputs de texto no notebook para apresentar as taxas de sobrevivência calculadas para cada categoria.
 
-3.  **Visualização Interativa (Opcional - Ferramenta de Visualização):**
-    * Embora a análise principal tenha sido apresentada em formato de texto, os dados poderiam ser exportados para uma ferramenta de visualização interativa (como Power BI, Tableau, etc.) para a criação de um painel mais dinâmico, permitindo filtros e exploração visual dos dados. Um placeholder para o link será incluído abaixo.
+3.  **Visualização Interativa (Ferramenta de Visualização):**
+    * Em um primeiro momento, o projeto não contemplou a utilização de ferramentas de visualização (como Power BI, Tableau ou bibliotecas gráficas como Matplotlib e Seaborn), pois o objetivo inicial foi praticar a análise exploratória de dados exclusivamente através da manipulação de DataFrames com a biblioteca Pandas. Visualizações gráficas serão adicionadas em versões futuras do projeto.
 
 ### 4. Principais Insights Encontrados
 
