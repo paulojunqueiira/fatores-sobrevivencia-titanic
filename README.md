@@ -41,7 +41,7 @@ Para a condução desta Análise Exploratória de Dados (EDA), o projeto seguiu 
 ### 4. Principais Insights Encontrados
 
 A análise revelou insights importantes sobre a sobrevivência no Titanic:
-* **Sexo:** Mulheres tiveram uma taxa de sobrevivência significativamente maior do que homens.
+* **Sexo:** Mulheres tiveram uma taxa de sobrevivência significativamente maior do que homens (M: 82.62% x H: 12.93% - uma diferença de 69.69%).
 * **Classe Social:** Passageiros em classes de passagem mais altas apresentaram maior taxa de sobrevivência. A classe 1 teve a maior taxa, seguida pela classe 2 e, por último, a classe 3.
 * **Sexo e Classe Social Combinados:** A combinação de sexo e classe social teve um impacto ainda mais notável, com mulheres na classe 1 apresentando a maior taxa de sobrevivência, enquanto homens na classe 3 tiveram a menor.
 * **Idade:** Crianças (até 12 anos) tiveram uma taxa de sobrevivência maior do que adultos.
