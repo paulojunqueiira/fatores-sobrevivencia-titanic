@@ -45,9 +45,9 @@ A análise revelou insights importantes sobre a sobrevivência no Titanic:
 * **Classe Social:** Passageiros em classes de passagem mais altas apresentaram maior taxa de sobrevivência. A classe 1 teve a maior taxa (57.59%), seguida pela classe 2 (42.24%) e, por último, a classe 3 (26.94%).
 * **Sexo e Classe Social Combinados:** A combinação de sexo e classe social teve um impacto ainda mais notável, com mulheres na classe 1 apresentando a maior taxa de sobrevivência (97.92%), enquanto homens na classe 3 tiveram a menor (9.53%).
 * **Idade:** Apesar de aproximadamente metade das Crianças (até 12 anos) terem sobrevivido, a taxa de sobrevivência (55.32%) foi maior do que a dos adultos (36.38%).
-* **Parentesco:** Passageiros com familiares a bordo tiveram uma taxa de sobrevivência maior do que passageiros que viajavam sozinhos.
-* **Custo da Passagem:** Passageiros que pagaram acima da média pelo bilhete tiveram uma taxa de sobrevivência maior do que aqueles que pagaram abaixo da média.
-* **Porto de Embarque:** A taxa de sobrevivência variou entre os portos de embarque, com passageiros que embarcaram em C (Cherbourg) apresentando a maior taxa.
+* **Parentesco:** Passageiros com familiares a bordo tiveram uma taxa de sobrevivência de 1,29% maior (50.67%) do que passageiros que viajavam sozinhos (49.33%).
+* **Custo da Passagem:** Passageiros que pagaram acima da média pelo bilhete tiveram uma taxa de sobrevivência maior (57.89%) do que aqueles que pagaram abaixo da média (31.64%).
+* **Porto de Embarque:** A taxa de sobrevivência variou entre os portos de embarque, com passageiros que embarcaram em C (Cherbourg) apresentando a maior taxa (49.26%).
 
 ### 5. Resultado Final
 
