@@ -16,18 +16,26 @@ Utilizei o famoso conjunto de dados do Titanic, disponível publicamente, conten
 
 ### 3. Metodologia e Ferramentas
 
-Para conduzir a análise e responder às perguntas, o projeto seguiu um fluxo de trabalho em três etapas, utilizando as seguintes ferramentas:
+Para a condução desta Análise Exploratória de Dados (EDA), o projeto seguiu uma metodologia estruturada inspirada no Método P.C.T.A., garantindo o perfil, a limpeza e a transformação de todos os dados antes da análise final.
 
-1.  **Carregamento e Pré-processamento dos Dados (Python com Pandas):**
-    * A primeira etapa foi carregar o conjunto de dados do Titanic usando a biblioteca **Pandas** no **Google Colab**.
+**Ferramentas: Python** (Google Colab) com foco exclusivo na biblioteca Pandas para todas as etapas de manipulação e análise.
+
+1.  **Carregamento e Entendimento de Perfil (P):**
+    * O conjunto de dados do Titanic foi carregado usando Pandas, com o PassengerId definido como índice para otimização e padronização.
+    * Foi feita uma inspeção inicial para diagnosticar a qualidade dos dados (nulos, tipos e distribuição).
+
+2.  **Pré-processamento e Limpeza (Fase C):**
     * As colunas foram renomeadas para português para facilitar a compreensão.
-    * A coluna 'ticket' foi removida por não ser relevante para a análise de sobrevivência.
+    * Colunas irrelevantes ou com excesso de nulos foram removidas, otimizando o tamanho do DataFrame.
+    * O dataset foi consolidado através da imputação de dados faltantes (nulos), remoção de duplicatas e ajustes finais nos tipos de séries.
 
-2.  **Análise Exploratória e Cálculo de Taxas de Sobrevivência (Python com Pandas):**
-    * O **Pandas** foi utilizado para calcular as taxas de sobrevivência com base em diferentes atributos dos passageiros, como sexo, classe social, faixa etária (crianças vs. adultos), presença de familiares, custo da passagem (acima ou abaixo da média) e porto de embarque.
-    * Foram gerados outputs de texto no notebook para apresentar as taxas de sobrevivência calculadas para cada categoria.
+3.  **Engenharia de Features e Transformação (Fase T):**
+    * Futuramente serão criados novos recursos para enriquecer o modelo de análise, como a variável Tamanho da Família e o agrupamento da variável contínua Idade em categorias.
 
-3.  **Visualização Interativa (Ferramenta de Visualização):**
+4.  **Análise e Auditoria Final (A):**
+    * O DataFrame final foi auditado para confirmar que não havia mais nulos e que todos os tipos de dados estavam corretos, garantindo a integridade da análise.
+
+5.  **Visualização Interativa (Ferramenta de Visualização):**
     * Em um primeiro momento, o projeto não contemplou a utilização de ferramentas de visualização (como Power BI, Tableau ou bibliotecas gráficas como Matplotlib e Seaborn), pois o objetivo inicial foi praticar a análise exploratória de dados exclusivamente através da manipulação de DataFrames com a biblioteca Pandas. Visualizações gráficas serão adicionadas em versões futuras do projeto.
 
 ### 4. Principais Insights Encontrados
