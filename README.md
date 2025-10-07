@@ -51,6 +51,8 @@ A análise revelou insights importantes sobre a sobrevivência no Titanic:
 
 ### 5. Resultado Final
 
-A análise das taxas de sobrevivência por diferentes atributos fornece um panorama claro dos fatores que foram cruciais para determinar quem sobreviveu ao naufrágio do Titanic.
+A análise revela um padrão claro: a taxa de sobrevivência foi drasticamente influenciada por fatores socioeconômicos e demográficos, seguindo o princípio não oficial de "Mulheres e Crianças primeiro" e, crucialmente, "Classes mais altas primeiro". Em suma, a tragédia do Titanic sublinhou uma regra social implícita: a probabilidade de sobreviver estava diretamente ligada ao seu status social e gênero.
+
+No link abaixo você pode acessar o Notebook (Google Colab) usado para fazer as análises desse DataFrame.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1ze138eSNJkIvAGM0nFh0PBzAOjoF0_Wk?usp=sharing)
